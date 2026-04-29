@@ -1,0 +1,143 @@
+{
+  "name": "Retail Sales Portfolio",
+  "dataColors": [
+    "#1F5A45",
+    "#D1A84A",
+    "#B6493A",
+    "#5D6D63",
+    "#7B8F6A",
+    "#C77D36",
+    "#356B8C",
+    "#8E5B3A"
+  ],
+  "background": "#F6F2E8",
+  "foreground": "#1E2429",
+  "tableAccent": "#1F5A45",
+  "good": "#1F5A45",
+  "neutral": "#D1A84A",
+  "bad": "#B6493A",
+  "textClasses": {
+    "title": {
+      "fontFace": "Aptos Display",
+      "fontSize": 20,
+      "color": "#1E2429"
+    },
+    "header": {
+      "fontFace": "Aptos Semibold",
+      "fontSize": 13,
+      "color": "#1E2429"
+    },
+    "callout": {
+      "fontFace": "Aptos",
+      "fontSize": 24,
+      "color": "#1E2429"
+    },
+    "label": {
+      "fontFace": "Aptos",
+      "fontSize": 11,
+      "color": "#1E2429"
+    }
+  },
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F6F2E8"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Aptos Semibold",
+            "fontSize": 13,
+            "fontColor": {
+              "solid": {
+                "color": "#1E2429"
+              }
+            }
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#D9D0C2"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Aptos",
+            "fontSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#5D6D63"
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#1E2429"
+              }
+            },
+            "fontSize": 24
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "gridVerticalColor": {
+              "solid": {
+                "color": "#E9E1D2"
+              }
+            },
+            "gridHorizontalColor": {
+              "solid": {
+                "color": "#E9E1D2"
+              }
+            },
+            "outlineColor": {
+              "solid": {
+                "color": "#D9D0C2"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
